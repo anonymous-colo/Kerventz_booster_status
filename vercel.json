@@ -12,10 +12,10 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/client/dist/$1"
+      "dest": "/dist/public/$1"
     }
   ],
-  "outputDirectory": "client/dist",
+  "outputDirectory": "dist/public",
   "installCommand": "npm install",
   "buildCommand": "npm run build"
 }
